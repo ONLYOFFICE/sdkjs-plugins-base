@@ -1,0 +1,26 @@
+{
+  "name": "Auswertung Plugin",
+  "guid": "asc.{your-unique-guid}",
+  "baseUrl": "./",
+  "description": "Erstellt Auswertungen in Tabellen.",
+  "version": "1.0.0",
+  "icons": [
+    {
+      "type": "32x32",
+      "url": "icon.png"
+    }
+  ],
+  "init": {
+    "script": "script.js",
+    "style": "styles.css"
+  },
+  "editor": {
+    "type": "cell",
+    "buttons": [
+      {
+        "caption": "Auswertung starten",
+        "action": "onButtonClick"
+      }
+    ]
+  }
+}
