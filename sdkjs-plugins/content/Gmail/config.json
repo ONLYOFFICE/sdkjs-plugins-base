@@ -1,0 +1,24 @@
+{
+    "baseurl": "",
+    "guid": "asc.{FFF61814-FAAA-4321-999F-1FF2FF3FF4FF}",
+    "version": "1.0",
+    "minVersion": "6.3.0",
+    "help": "This plugin allows you to use gmail inside onlyoffice-desktopeditors",
+    "name": "Gmail",
+
+    "variations": [
+        {
+            "description": "Gmail",
+            "url": "index.html",
+            "icons":["resources/gmail.png"],
+            "isViewer": false,
+            "EditorsSupport": ["word"],
+            "isVisual": false,
+            "initDataType": "none",
+            "initData": "",
+            "isUpdateOleOnResize": true
+        }
+    ]
+
+
+}
