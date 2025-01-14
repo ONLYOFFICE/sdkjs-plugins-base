@@ -1,0 +1,91 @@
+{
+    "name": "JSON API",
+    "guid": "asc.{795B6112-98F9-496B-B630-F7D1F787BFF5}",
+    "baseUrl": "",
+    "nameLocale": {
+        "ru": "JSON API"
+    },
+    "variations": [{
+            "description": "JSON API plugin",
+            "descriptionLocale": {
+                "ru": "Плагин JSON API"
+            },
+            "url": "index.html",
+            "icons": ["resources/img/icon.png", "resources/img/icon@2x.png"],
+            "isViewer": false,
+            "EditorsSupport": ["cell"],
+            "isVisual": false,
+            "isModal": true,
+            "isInsideMode": false,
+            "initDataType": "none",
+            "initData": "",
+            "isUpdateOleOnResize": true,
+            "buttons": [{
+                    "text": "Update",
+                    "primary": true,
+                    "textLocale": {
+                        "ru": "OK"
+                    }
+                }, {
+                    "text": "Cancel",
+                    "primary": false,
+                    "textLocale": {
+                        "ru": "Отмена"
+                    }
+                }
+            ]
+        },
+        {
+            "description": "API JSON",
+            "descriptionLocale": {
+                "ru": "API JSON ПРОСТОР"
+            },
+            "url": "json_api.html",
+            "icons": ["resources/img/icon.png", "resources/img/icon@2x.png"],
+            "isViewer": false,
+            "EditorsSupport": ["cell"],
+            "isVisual": true,
+            "isModal": true,
+            "isInsideMode": false,
+            "initDataType": "none",
+            "initData": "",
+            "isUpdateOleOnResize": true,
+            "buttons": [{
+                    "text": "Ok",
+                    "primary": true,
+                    "textLocale": {
+                        "ru": "Выполнить"
+                    }
+                }, {
+                    "text": "Cancel",
+                    "primary": false,
+                    "textLocale": {
+                        "ru": "Отмена"
+                    }
+                }
+            ]
+        }, {
+            "description": "About",
+            "descriptionLocale": {
+                "ru": "О плагине"
+            },
+            "url": "index_about.html",
+            "icons": ["resources/img/icon.png", "resources/img/icon@2x.png"],
+            "isViewer": false,
+            "EditorsSupport": ["cell"],
+            "isVisual": true,
+            "isModal": true,
+            "isInsideMode": false,
+            "initDataType": "none",
+            "initData": "",
+            "isUpdateOleOnResize": true,
+            "buttons": [{
+                    "text": "Ok",
+                    "primary": true
+                }
+            ],
+
+            "size": [392, 147]
+        }
+    ]
+}

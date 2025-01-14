@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About plugin</title>
+    <style>
+        p, a{
+            font-size: 12px;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+
+        a:link {
+            color: darkgrey;
+        }
+
+        /* visited link */
+        a:visited {
+            color: darkgrey;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: #8d8d8d;
+        }
+
+        /* selected link */
+        a:active {
+            color: darkgrey;
+        }
+    </style>
+        <script type="text/javascript" src="https://onlyoffice.github.io/sdkjs-plugins/v1/plugins.js"></script>
+        <script type="text/javascript" src="https://onlyoffice.github.io/sdkjs-plugins/v1/plugins-ui.js"></script>
+        <link rel="stylesheet" href="https://onlyoffice.github.io/sdkjs-plugins/v1/plugins.css">
+    <script type="text/javascript">
+        window.Asc.plugin.init = function()
+        {
+            this.resizeWindow(392, 147, 392, 147, 392, 147);
+            // none
+        };
+
+        window.Asc.plugin.button = function(id)
+        {
+            this.executeCommand("close", "");
+        };
+
+    </script>
+</head>
+<body style="padding-left: 20px; padding-right: 20px">
+<p style="font-size: 15px">JSON api</p>
+<p style="font-size: 12px">Receiving, parsing and inserting the results of a get request from a third-party site or service into spreadsheet cells. Parsing using JSONPath expressions, saving previously requests in a separate (special) sheet, updating cell values with previously generated queries on the sheet.
+</p>
+<a href> https://github.com/VyachL84/JsonAPIOnlyofficePlugin </a>
+</body>
+</html>
