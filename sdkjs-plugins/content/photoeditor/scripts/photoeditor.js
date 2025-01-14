@@ -190,9 +190,9 @@ var bNewVersion = false;
                     theme: themeStyle,
                     initMenu: 'filter',
                     menuBarPosition: 'bottom',
-                    usageStatistics: false,
                     locale: language
                 },
+                usageStatistics: false,
                 cssMaxWidth: 700,
                 cssMaxHeight: 500,
             });
